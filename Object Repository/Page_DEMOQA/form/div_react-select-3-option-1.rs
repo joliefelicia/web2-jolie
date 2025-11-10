@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_react-select-3-option-1</name>
+   <tag></tag>
+   <elementGuidId>2f9e82c4-7ad0-40de-a229-51e860b53f2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'state']//*[(name() = 'div') and (position() = 3)]//*[(name() = 'div') and (position() = 2)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#state div:nth-child(3) div:nth-child(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Uttar Pradesh&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>33f24348-87dd-4fa2-b94d-b25682c5271c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-yt9ioa-option</value>
+      <webElementGuid>a5fbeaa9-7f36-44fb-805d-3a527cdd424e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-3-option-1</value>
+      <webElementGuid>ac572f9a-d7c2-459b-8bad-8e8b924b450c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>6be8610c-133a-4cdc-9bf9-6ed7b4bd7447</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>react-select-3-option-1</value>
+      <webElementGuid>a3189731-7f64-4826-ac04-26b7e5eab3e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Uttar Pradesh</value>
+      <webElementGuid>d4b3b2c8-c489-4081-b879-4f889a0129a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c69a7ca41d5e6b2010a2cac17052582a</value>
+      <webElementGuid>58291baf-f6bb-46fa-89e4-86cf0ba5246b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'state']//*[(name() = 'div') and (position() = 3)]//*[(name() = 'div') and (position() = 2)]</value>
+      <webElementGuid>947e09a6-9588-464f-b54a-318179993bbe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'state']//*[(name() = 'div') and (position() = 3)]//*[(name() = 'div') and (position() = 2)]</value>
+      <webElementGuid>72cb1746-666f-4d01-bcc7-4a12e8c6c146</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'react-select-3-option-1' and (text() = 'react-select-3-option-1' or . = 'react-select-3-option-1')]</value>
+      <webElementGuid>12aa7093-40ec-4110-becd-86a55d730397</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

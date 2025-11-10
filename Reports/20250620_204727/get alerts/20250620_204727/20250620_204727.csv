@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+get alerts,Chrome 137.0.7151.119,,,20-06-2025 20:47:33,20-06-2025 20:53:12,5m - 38.369s,PASSED
+,,,,,,,
+Test Cases/web testing/alert/alerts,Chrome 137.0.7151.119,,,20-06-2025 20:47:34,20-06-2025 20:48:49,1m - 14.958s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.119,,,20-06-2025 20:47:35,20-06-2025 20:47:39,4.068s,PASSED
+"navigateToUrl(""https://demoqa.com/alerts"")",Chrome 137.0.7151.119,,,20-06-2025 20:47:39,20-06-2025 20:48:41,1m - 1.963s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/alert/button_alertButton""), 0)",Chrome 137.0.7151.119,,,20-06-2025 20:48:41,20-06-2025 20:48:42,1.850s,PASSED
+"click(findTestObject(""Page_DEMOQA/alert/button_alertButton""))",Chrome 137.0.7151.119,,,20-06-2025 20:48:42,20-06-2025 20:48:43,0.556s,PASSED
+driver = getWebDriver(),Chrome 137.0.7151.119,,,20-06-2025 20:48:43,20-06-2025 20:48:43,0.028s,PASSED
+AlertText = alert().getText(),Chrome 137.0.7151.119,Getting the text from the alert and storing it in Variable,,20-06-2025 20:48:43,20-06-2025 20:48:43,0.153s,PASSED
+println(AlertText),Chrome 137.0.7151.119,,,20-06-2025 20:48:43,20-06-2025 20:48:43,0.014s,PASSED
+delay(5),Chrome 137.0.7151.119,,,20-06-2025 20:48:43,20-06-2025 20:48:48,5.088s,PASSED
+acceptAlert(),Chrome 137.0.7151.119,,,20-06-2025 20:48:48,20-06-2025 20:48:48,0.057s,PASSED
+closeBrowser(),Chrome 137.0.7151.119,,,20-06-2025 20:48:48,20-06-2025 20:48:49,0.605s,PASSED
+,,,,,,,
+Test Cases/web testing/alert/confirm alert,Chrome 137.0.7151.119,,,20-06-2025 20:48:49,20-06-2025 20:50:22,1m - 32.671s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.119,,,20-06-2025 20:48:49,20-06-2025 20:48:52,2.383s,PASSED
+"navigateToUrl(""https://demoqa.com/alerts"")",Chrome 137.0.7151.119,,,20-06-2025 20:48:52,20-06-2025 20:50:08,1m - 16.574s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/alert/button_confirmButton""), 0)",Chrome 137.0.7151.119,,,20-06-2025 20:50:08,20-06-2025 20:50:09,1.131s,PASSED
+"click(findTestObject(""Page_DEMOQA/alert/button_confirmButton""))",Chrome 137.0.7151.119,,,20-06-2025 20:50:09,20-06-2025 20:50:10,0.580s,PASSED
+dismissAlert(),Chrome 137.0.7151.119,,,20-06-2025 20:50:10,20-06-2025 20:50:10,0.096s,PASSED
+"data = getText(findTestObject(""Page_DEMOQA/alert/span_confirmResult""))",Chrome 137.0.7151.119,,,20-06-2025 20:50:10,20-06-2025 20:50:11,0.624s,PASSED
+println(data),Chrome 137.0.7151.119,,,20-06-2025 20:50:11,20-06-2025 20:50:11,0.003s,PASSED
+delay(5),Chrome 137.0.7151.119,,,20-06-2025 20:50:11,20-06-2025 20:50:16,5.011s,PASSED
+"click(findTestObject(""Page_DEMOQA/alert/button_confirmButton""))",Chrome 137.0.7151.119,,,20-06-2025 20:50:16,20-06-2025 20:50:16,0.410s,PASSED
+acceptAlert(),Chrome 137.0.7151.119,,,20-06-2025 20:50:16,20-06-2025 20:50:16,0.023s,PASSED
+"data = getText(findTestObject(""Page_DEMOQA/alert/span_confirmResult""))",Chrome 137.0.7151.119,,,20-06-2025 20:50:16,20-06-2025 20:50:16,0.293s,PASSED
+println(data),Chrome 137.0.7151.119,,,20-06-2025 20:50:16,20-06-2025 20:50:16,0.006s,PASSED
+delay(5),Chrome 137.0.7151.119,,,20-06-2025 20:50:16,20-06-2025 20:50:21,5.021s,PASSED
+closeBrowser(),Chrome 137.0.7151.119,,,20-06-2025 20:50:21,20-06-2025 20:50:22,0.295s,PASSED
+,,,,,,,
+Test Cases/web testing/alert/prompt alert,Chrome 137.0.7151.119,,,20-06-2025 20:50:22,20-06-2025 20:51:46,1m - 24.620s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.119,,,20-06-2025 20:50:22,20-06-2025 20:50:23,1.753s,PASSED
+"navigateToUrl(""https://demoqa.com/alerts"")",Chrome 137.0.7151.119,,,20-06-2025 20:50:23,20-06-2025 20:51:24,1m - 0.082s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/alert/button_promtButton""), 0)",Chrome 137.0.7151.119,,,20-06-2025 20:51:24,20-06-2025 20:51:24,0.840s,PASSED
+"click(findTestObject(""Page_DEMOQA/alert/button_promtButton""))",Chrome 137.0.7151.119,,,20-06-2025 20:51:24,20-06-2025 20:51:25,0.659s,PASSED
+driver = getWebDriver(),Chrome 137.0.7151.119,,,20-06-2025 20:51:25,20-06-2025 20:51:25,0.000s,PASSED
+"alert().sendKeys(""Testing"")",Chrome 137.0.7151.119,"Passing the text in the text box in the Alert
+",,20-06-2025 20:51:25,20-06-2025 20:51:35,10.084s,PASSED
+acceptAlert(),Chrome 137.0.7151.119,,,20-06-2025 20:51:35,20-06-2025 20:51:35,0.037s,PASSED
+"inputdata = getText(findTestObject(""Page_DEMOQA/alert/span_promptResult""))",Chrome 137.0.7151.119,,,20-06-2025 20:51:35,20-06-2025 20:51:36,0.555s,PASSED
+println(inputdata),Chrome 137.0.7151.119,,,20-06-2025 20:51:36,20-06-2025 20:51:36,0.006s,PASSED
+delay(10),Chrome 137.0.7151.119,,,20-06-2025 20:51:36,20-06-2025 20:51:46,10.015s,PASSED
+closeBrowser(),Chrome 137.0.7151.119,,,20-06-2025 20:51:46,20-06-2025 20:51:46,0.479s,PASSED
+,,,,,,,
+Test Cases/web testing/alert/timer alert,Chrome 137.0.7151.119,,,20-06-2025 20:51:46,20-06-2025 20:53:11,1m - 25.147s,PASSED
+"openBrowser("""")",Chrome 137.0.7151.119,,,20-06-2025 20:51:47,20-06-2025 20:51:49,2.188s,PASSED
+"navigateToUrl(""https://demoqa.com/alerts"")",Chrome 137.0.7151.119,,,20-06-2025 20:51:49,20-06-2025 20:52:54,1m - 5.337s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/alert/button_timerAlertButton""), 0)",Chrome 137.0.7151.119,,,20-06-2025 20:52:54,20-06-2025 20:52:55,0.841s,PASSED
+"click(findTestObject(""Page_DEMOQA/alert/button_timerAlertButton""))",Chrome 137.0.7151.119,,,20-06-2025 20:52:55,20-06-2025 20:52:55,0.514s,PASSED
+waitForAlert(5),Chrome 137.0.7151.119,,,20-06-2025 20:52:55,20-06-2025 20:53:01,5.258s,WARNING
+driver = getWebDriver(),Chrome 137.0.7151.119,,,20-06-2025 20:53:01,20-06-2025 20:53:01,0.007s,PASSED
+AlertText = alert().getText(),Chrome 137.0.7151.119,Getting the text from the alert and storing it in Variable,,20-06-2025 20:53:01,20-06-2025 20:53:01,0.081s,PASSED
+println(AlertText),Chrome 137.0.7151.119,,,20-06-2025 20:53:01,20-06-2025 20:53:01,0.002s,PASSED
+delay(5),Chrome 137.0.7151.119,,,20-06-2025 20:53:01,20-06-2025 20:53:06,5.017s,PASSED
+acceptAlert(STOP_ON_FAILURE),Chrome 137.0.7151.119,,,20-06-2025 20:53:06,20-06-2025 20:53:06,0.051s,PASSED
+delay(5),Chrome 137.0.7151.119,,,20-06-2025 20:53:06,20-06-2025 20:53:11,5.018s,PASSED
+closeBrowser(),Chrome 137.0.7151.119,,,20-06-2025 20:53:11,20-06-2025 20:53:11,0.504s,PASSED

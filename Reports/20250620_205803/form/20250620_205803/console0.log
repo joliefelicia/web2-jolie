@@ -1,0 +1,114 @@
+2025-06-20 20:58:09.243 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/form
+2025-06-20 20:58:09.377 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Jolie Felicia
+2025-06-20 20:58:09.380 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = web2-jolie
+2025-06-20 20:58:09.381 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = asus2 - Jolie
+2025-06-20 20:58:09.382 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-06-20 20:58:09.383 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.3
+2025-06-20 20:58:09.383 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-06-20 20:58:09.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-20 20:58:09.967 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/form/form
+2025-06-20 20:58:10.072 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) first_name = Jolie
+	
+2025-06-20 20:58:10.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) last_name = Felicia
+2025-06-20 20:58:10.108 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) email = jolie@gmail.com
+
+2025-06-20 20:58:10.130 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) mobile_number = 08567567678678
+2025-06-20 20:58:10.150 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) file = C:\Users\asus2\Downloads\WhatsApp Image 2025-02-14 at 22.00.53.jpeg
+2025-06-20 20:58:10.655 DEBUG testcase.form                            - 1: openBrowser("")
+2025-06-20 20:58:10.966 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-20 20:58:11.016 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 20, 2025 8:58:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 8:58:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-20 20:58:14.396 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2250ea0b8ff9fcb14c57d181ac9c400c
+2025-06-20 20:58:14.398 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-20 20:58:14.399 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-20 20:58:14.400 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-20 20:58:14.412 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-20 20:58:14.467 DEBUG testcase.form                            - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-06-20 20:59:15.445 DEBUG testcase.form                            - 3: maximizeWindow()
+2025-06-20 20:59:15.606 DEBUG testcase.form                            - 4: scrollToElement(findTestObject("Object Repository/Page_DEMOQA/form/input_First Name"), 0)
+2025-06-20 20:59:15.863 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-20 20:59:17.176 DEBUG testcase.form                            - 5: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_First Name"), first_name)
+2025-06-20 20:59:18.174 DEBUG testcase.form                            - 6: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Last Name"), last_name)
+2025-06-20 20:59:18.914 DEBUG testcase.form                            - 7: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_nameexample.com"), email)
+2025-06-20 20:59:19.724 DEBUG testcase.form                            - 8: click(findTestObject("Object Repository/Page_DEMOQA/form/label_Female"))
+2025-06-20 20:59:20.219 DEBUG testcase.form                            - 9: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Mobile Number"), mobile_number)
+2025-06-20 20:59:21.038 DEBUG testcase.form                            - 10: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_dateOfBirthInput"), " ")
+2025-06-20 20:59:22.106 DEBUG testcase.form                            - 11: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_dateOfBirthInput"), "19 Jun 2025")
+2025-06-20 20:59:22.895 DEBUG testcase.form                            - 12: click(findTestObject("Object Repository/Page_DEMOQA/form/label_subjects-label"))
+2025-06-20 20:59:23.322 DEBUG testcase.form                            - 13: click(findTestObject("Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje"))
+2025-06-20 20:59:23.749 DEBUG testcase.form                            - 14: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_subjectsInput"), "maths")
+2025-06-20 20:59:24.723 DEBUG testcase.form                            - 15: click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-2-option-0"))
+2025-06-20 20:59:25.351 DEBUG testcase.form                            - 16: click(findTestObject("Object Repository/Page_DEMOQA/form/label_Reading"))
+2025-06-20 20:59:26.005 DEBUG testcase.form                            - 17: click(findTestObject("Object Repository/Page_DEMOQA/form/label_Music"))
+2025-06-20 20:59:26.450 DEBUG testcase.form                            - 18: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Select picture"), file)
+2025-06-20 20:59:27.149 DEBUG testcase.form                            - 19: setText(findTestObject("Object Repository/Page_DEMOQA/form/textarea_Current Address"), "Jakarta")
+2025-06-20 20:59:27.945 DEBUG testcase.form                            - 20: scrollToElement(findTestObject("Object Repository/Page_DEMOQA/form/div_Select State"), 0)
+2025-06-20 20:59:27.971 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-20 20:59:28.271 DEBUG testcase.form                            - 21: click(findTestObject("Object Repository/Page_DEMOQA/form/div_Select State"))
+2025-06-20 20:59:28.682 DEBUG testcase.form                            - 22: click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-3-option-1"))
+2025-06-20 20:59:29.303 DEBUG testcase.form                            - 23: click(findTestObject("Object Repository/Page_DEMOQA/form/div_Select City"))
+2025-06-20 20:59:29.940 DEBUG testcase.form                            - 24: click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-4-option-1"))
+2025-06-20 20:59:30.581 DEBUG testcase.form                            - 25: click(findTestObject("Object Repository/Page_DEMOQA/form/button_submit"))
+2025-06-20 20:59:31.262 DEBUG testcase.form                            - 26: delay(5)
+2025-06-20 20:59:36.359 DEBUG testcase.form                            - 27: scrollToElement(findTestObject("Page_DEMOQA/form/input_First Name"), 0)
+2025-06-20 20:59:36.410 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-20 20:59:36.843 DEBUG testcase.form                            - 28: closeBrowser(STOP_ON_FAILURE)
+2025-06-20 20:59:37.449 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/form/form
+2025-06-20 20:59:37.466 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-20 20:59:37.466 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/form/form
+2025-06-20 20:59:37.513 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) first_name = Jolie
+	
+2025-06-20 20:59:37.513 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) last_name = Felicia
+2025-06-20 20:59:37.522 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) email = jolie@gmail.com
+
+2025-06-20 20:59:37.522 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) mobile_number = 08567567678678
+2025-06-20 20:59:37.524 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) file = C:\Users\asus2\Downloads\WhatsApp Image 2025-02-14 at 22.00.53.jpeg
+2025-06-20 20:59:37.530 DEBUG testcase.form                            - 1: openBrowser("")
+2025-06-20 20:59:37.535 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-06-20 20:59:37.546 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 20, 2025 8:59:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 20, 2025 8:59:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.7151.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-20 20:59:40.302 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 198fc9be3dc3c946a84e421e26e8cdd9
+2025-06-20 20:59:40.310 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 137.0.7151.119
+2025-06-20 20:59:40.310 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-06-20 20:59:40.312 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-20 20:59:40.312 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-20 20:59:40.364 DEBUG testcase.form                            - 2: navigateToUrl("https://demoqa.com/automation-practice-form")
+2025-06-20 21:00:28.655 DEBUG testcase.form                            - 3: maximizeWindow()
+2025-06-20 21:00:28.781 DEBUG testcase.form                            - 4: scrollToElement(findTestObject("Object Repository/Page_DEMOQA/form/input_First Name"), 0)
+2025-06-20 21:00:28.798 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-20 21:00:30.347 DEBUG testcase.form                            - 5: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_First Name"), first_name)
+2025-06-20 21:00:31.216 DEBUG testcase.form                            - 6: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Last Name"), last_name)
+2025-06-20 21:00:31.926 DEBUG testcase.form                            - 7: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_nameexample.com"), email)
+2025-06-20 21:00:32.710 DEBUG testcase.form                            - 8: click(findTestObject("Object Repository/Page_DEMOQA/form/label_Female"))
+2025-06-20 21:00:33.161 DEBUG testcase.form                            - 9: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Mobile Number"), mobile_number)
+2025-06-20 21:00:33.942 DEBUG testcase.form                            - 10: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_dateOfBirthInput"), " ")
+2025-06-20 21:00:35.008 DEBUG testcase.form                            - 11: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_dateOfBirthInput"), "19 Jun 2025")
+2025-06-20 21:00:35.942 DEBUG testcase.form                            - 12: click(findTestObject("Object Repository/Page_DEMOQA/form/label_subjects-label"))
+2025-06-20 21:00:36.365 DEBUG testcase.form                            - 13: click(findTestObject("Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje"))
+2025-06-20 21:00:36.778 DEBUG testcase.form                            - 14: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_subjectsInput"), "maths")
+2025-06-20 21:00:37.714 DEBUG testcase.form                            - 15: click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-2-option-0"))
+2025-06-20 21:00:38.368 DEBUG testcase.form                            - 16: click(findTestObject("Object Repository/Page_DEMOQA/form/label_Reading"))
+2025-06-20 21:00:39.022 DEBUG testcase.form                            - 17: click(findTestObject("Object Repository/Page_DEMOQA/form/label_Music"))
+2025-06-20 21:00:39.447 DEBUG testcase.form                            - 18: setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Select picture"), file)
+2025-06-20 21:00:40.123 DEBUG testcase.form                            - 19: setText(findTestObject("Object Repository/Page_DEMOQA/form/textarea_Current Address"), "Jakarta")
+2025-06-20 21:00:40.836 DEBUG testcase.form                            - 20: scrollToElement(findTestObject("Object Repository/Page_DEMOQA/form/div_Select State"), 0)
+2025-06-20 21:00:40.845 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-20 21:00:41.155 DEBUG testcase.form                            - 21: click(findTestObject("Object Repository/Page_DEMOQA/form/div_Select State"))
+2025-06-20 21:00:41.571 DEBUG testcase.form                            - 22: click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-3-option-1"))
+2025-06-20 21:00:42.227 DEBUG testcase.form                            - 23: click(findTestObject("Object Repository/Page_DEMOQA/form/div_Select City"))
+2025-06-20 21:00:42.858 DEBUG testcase.form                            - 24: click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-4-option-1"))
+2025-06-20 21:00:43.469 DEBUG testcase.form                            - 25: click(findTestObject("Object Repository/Page_DEMOQA/form/button_submit"))
+2025-06-20 21:00:44.101 DEBUG testcase.form                            - 26: delay(5)
+2025-06-20 21:00:49.132 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-20 21:00:49.119 DEBUG testcase.form                            - 27: scrollToElement(findTestObject("Page_DEMOQA/form/input_First Name"), 0)
+2025-06-20 21:00:49.421 DEBUG testcase.form                            - 28: closeBrowser(STOP_ON_FAILURE)
+2025-06-20 21:00:49.780 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/form/form
+2025-06-20 21:00:49.845 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-20 21:00:49.845 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/form
+2025-06-20 21:00:49.845 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

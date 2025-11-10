@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_react-select-4-option-1</name>
+   <tag></tag>
+   <elementGuidId>de64e41c-22d6-4d73-93f3-f11688f6a283</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'city']//*[(name() = 'div') and (position() = 3)]//*[(name() = 'div') and (position() = 2)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#city div:nth-child(3) div:nth-child(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Lucknow&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5f6f5d5b-36b1-430c-9e73-61e4033e1363</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-yt9ioa-option</value>
+      <webElementGuid>ad3a6882-6621-46d5-8c75-53b75bede37b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-4-option-1</value>
+      <webElementGuid>c4cacd0f-0826-4804-952f-4100216e1dc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>a1a0fd2c-7e16-4652-a6b4-983cbbef0c06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>react-select-4-option-1</value>
+      <webElementGuid>dbd51d3b-0598-4a8e-9769-61b1075605ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Lucknow</value>
+      <webElementGuid>c86fa46b-ecea-4d21-8ee6-ef537454baed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-35cd6ca2893ca518639a3573fed6d733</value>
+      <webElementGuid>e68a4ea2-27c7-497a-b3f5-48cd2c98d8a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'city']//*[(name() = 'div') and (position() = 3)]//*[(name() = 'div') and (position() = 2)]</value>
+      <webElementGuid>3cc55d1c-d541-4103-a765-0dbff02875b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'city']//*[(name() = 'div') and (position() = 3)]//*[(name() = 'div') and (position() = 2)]</value>
+      <webElementGuid>ba7ca4d0-2a56-424f-ad08-4af5ccbf017b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'react-select-4-option-1' and (text() = 'react-select-4-option-1' or . = 'react-select-4-option-1')]</value>
+      <webElementGuid>9bc27c21-eed4-4ff8-955c-14c76884542b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

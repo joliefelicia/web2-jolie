@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_timerAlertButton</name>
+   <tag></tag>
+   <elementGuidId>d9e5ae0e-b67c-4fd4-a742-9d5fd61bf778</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'timerAlertButton']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#timerAlertButton</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#timerAlertButton</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>af6d1ae0-d48a-4af6-b598-3ff7dd925df4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>timerAlertButton</value>
+      <webElementGuid>f05cf33f-ca35-4d48-9c6a-e7f08115fd67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>65319d28-8057-4212-b544-6aacf29f08fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>1e5dc1c4-478b-4c61-939e-43c3f39ae63c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>timerAlertButton</value>
+      <webElementGuid>cc196b20-4a39-4fcc-90cc-05543ddfe7ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Click me</value>
+      <webElementGuid>aff097c7-dc3b-4059-b4b9-6131a6dd8550</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d9e5692e684d1cfbe59547ef5067a56e</value>
+      <webElementGuid>7f345a80-b9bf-4fbb-ad3a-3938de2db19c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'timerAlertButton']</value>
+      <webElementGuid>e8910c46-525f-4100-81d4-5d23318c6c72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'timerAlertButton']</value>
+      <webElementGuid>937c8a87-683f-4e19-8850-628b2ed5dc8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'timerAlertButton' and @type = 'button' and (text() = 'timerAlertButton' or . = 'timerAlertButton')]</value>
+      <webElementGuid>a5c5ae36-05c6-4510-8fe5-8683a34f265c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

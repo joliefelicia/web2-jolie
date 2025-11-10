@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_showLargeModal</name>
+   <tag></tag>
+   <elementGuidId>4b3390bf-df9f-4407-bf3b-95d63c00f1b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'showLargeModal']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#showLargeModal</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Large modal&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>38183fc9-9ea5-4e89-8a1f-f08438375c84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>showLargeModal</value>
+      <webElementGuid>e7c3e259-7b75-442e-8f58-9cfc85446517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4f2d9313-b4f6-40f8-8a8e-850690cc6329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-2 btn btn-primary</value>
+      <webElementGuid>88d64135-ba9f-447d-9dc7-03169fe7627e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>showLargeModal</value>
+      <webElementGuid>6d4d596e-c214-4dec-adb8-7f134971c621</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Large modal</value>
+      <webElementGuid>4f145ae4-9072-4946-a07a-2f0cf9527a3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-59b33c63dfc0621981fc5b52a7be95a5</value>
+      <webElementGuid>8920c728-7b43-4ca3-a54f-216f238f293b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'showLargeModal']</value>
+      <webElementGuid>07307b95-da6c-49ca-8f83-314bd28311b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'showLargeModal']</value>
+      <webElementGuid>54b7d0ed-ba1e-4fbe-8423-e3737f39cfa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'showLargeModal' and @type = 'button' and (text() = 'showLargeModal' or . = 'showLargeModal')]</value>
+      <webElementGuid>75c29618-bd9e-47fb-a587-25bef5b5d677</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

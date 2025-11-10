@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="form" time="160.427" tests="2" failures="0" errors="0">
+   <testsuite name="form" tests="2" failures="0" errors="0" time="160.427" skipped="0" timestamp="20-06-2025T20:58:09" hostname="asus2 - Jolie" id="Test Suites/form">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\asus2\\git\\web2-jolie\\Reports\\20250620_205803\\form\\20250620_205803"/>
+         <property name="logFiles" value="C:\\Users\\asus2\\git\\web2-jolie\\Reports\\20250620_205803\\form\\20250620_205803\\console0.log, C:\\Users\\asus2\\git\\web2-jolie\\Reports\\20250620_205803\\form\\20250620_205803\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus2 - Jolie"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+         <property name="browser" value="Chrome 137.0.7151.119"/>
+         <property name="userFullName" value="Jolie Felicia"/>
+         <property name="hostAddress" value="192.168.100.3"/>
+         <property name="sessionId" value="198fc9be3dc3c946a84e421e26e8cdd9"/>
+         <property name="projectName" value="web2-jolie"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/web testing/form/form" time="87.482" classname="Test Cases/web testing/form/form" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) mobil...":"08567567678678","(Default) first...":"Jolie\r\n\t","(Default) email":"jolie@gmail.com\r\n","(Default) last_...":"Felicia","(Default) file":"C:\\Users\\asus2\\Downloads\\WhatsApp Image 2025-02-14 at 22.00.53.jpeg"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-06-2025T20:58:09 - [TEST_CASE][PASSED] - Test Cases/web testing/form/form: Test Cases/web testing/form/form
+
+20-06-2025T20:58:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-06-2025T20:58:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-06-2025T20:58:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-06-2025T20:58:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-06-2025T20:58:14 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+20-06-2025T20:59:15 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+20-06-2025T20:59:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-06-2025T20:59:15 - [MESSAGE][PASSED] - Current window maximized
+
+20-06-2025T20:59:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_DEMOQA/form/input_First Name"), 0): Scroll to object 'Object Repository/Page_DEMOQA/form/input_First Name' successfully
+
+20-06-2025T20:59:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-06-2025T20:59:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/form/input_First Name' successfully
+
+20-06-2025T20:59:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_First Name"), first_name): Text 'Jolie
+	' is set on object 'Object Repository/Page_DEMOQA/form/input_First Name'
+
+20-06-2025T20:59:18 - [MESSAGE][PASSED] - Text 'Jolie
+	' is set on object 'Object Repository/Page_DEMOQA/form/input_First Name'
+
+20-06-2025T20:59:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Last Name"), last_name): Text 'Felicia' is set on object 'Object Repository/Page_DEMOQA/form/input_Last Name'
+
+20-06-2025T20:59:18 - [MESSAGE][PASSED] - Text 'Felicia' is set on object 'Object Repository/Page_DEMOQA/form/input_Last Name'
+
+20-06-2025T20:59:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_nameexample.com"), email): Text 'jolie@gmail.com
+' is set on object 'Object Repository/Page_DEMOQA/form/input_nameexample.com'
+
+20-06-2025T20:59:19 - [MESSAGE][PASSED] - Text 'jolie@gmail.com
+' is set on object 'Object Repository/Page_DEMOQA/form/input_nameexample.com'
+
+20-06-2025T20:59:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/label_Female")): Object: 'Object Repository/Page_DEMOQA/form/label_Female' is clicked on
+
+20-06-2025T20:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/label_Female' is clicked on
+
+20-06-2025T20:59:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Mobile Number"), mobile_number): Text '08567567678678' is set on object 'Object Repository/Page_DEMOQA/form/input_Mobile Number'
+
+20-06-2025T20:59:21 - [MESSAGE][PASSED] - Text '08567567678678' is set on object 'Object Repository/Page_DEMOQA/form/input_Mobile Number'
+
+20-06-2025T20:59:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_dateOfBirthInput"), " "): Text ' ' is set on object 'Object Repository/Page_DEMOQA/form/input_dateOfBirthInput'
+
+20-06-2025T20:59:22 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/Page_DEMOQA/form/input_dateOfBirthInput'
+
+20-06-2025T20:59:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_dateOfBirthInput"), "19 Jun 2025"): Text '19 Jun 2025' is set on object 'Object Repository/Page_DEMOQA/form/input_dateOfBirthInput'
+
+20-06-2025T20:59:22 - [MESSAGE][PASSED] - Text '19 Jun 2025' is set on object 'Object Repository/Page_DEMOQA/form/input_dateOfBirthInput'
+
+20-06-2025T20:59:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/label_subjects-label")): Object: 'Object Repository/Page_DEMOQA/form/label_subjects-label' is clicked on
+
+20-06-2025T20:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/label_subjects-label' is clicked on
+
+20-06-2025T20:59:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje")): Object: 'Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje' is clicked on
+
+20-06-2025T20:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje' is clicked on
+
+20-06-2025T20:59:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_subjectsInput"), "maths"): Text 'maths' is set on object 'Object Repository/Page_DEMOQA/form/input_subjectsInput'
+
+20-06-2025T20:59:24 - [MESSAGE][PASSED] - Text 'maths' is set on object 'Object Repository/Page_DEMOQA/form/input_subjectsInput'
+
+20-06-2025T20:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-2-option-0")): Object: 'Object Repository/Page_DEMOQA/form/div_react-select-2-option-0' is clicked on
+
+20-06-2025T20:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_react-select-2-option-0' is clicked on
+
+20-06-2025T20:59:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/label_Reading")): Object: 'Object Repository/Page_DEMOQA/form/label_Reading' is clicked on
+
+20-06-2025T20:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/label_Reading' is clicked on
+
+20-06-2025T20:59:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/label_Music")): Object: 'Object Repository/Page_DEMOQA/form/label_Music' is clicked on
+
+20-06-2025T20:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/label_Music' is clicked on
+
+20-06-2025T20:59:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Select picture"), file): Text 'C:\Users\asus2\Downloads\WhatsApp Image 2025-02-14 at 22.00.53.jpeg' is set on object 'Object Repository/Page_DEMOQA/form/input_Select picture'
+
+20-06-2025T20:59:27 - [MESSAGE][PASSED] - Text 'C:\Users\asus2\Downloads\WhatsApp Image 2025-02-14 at 22.00.53.jpeg' is set on object 'Object Repository/Page_DEMOQA/form/input_Select picture'
+
+20-06-2025T20:59:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/textarea_Current Address"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/Page_DEMOQA/form/textarea_Current Address'
+
+20-06-2025T20:59:27 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Page_DEMOQA/form/textarea_Current Address'
+
+20-06-2025T20:59:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_DEMOQA/form/div_Select State"), 0): Scroll to object 'Object Repository/Page_DEMOQA/form/div_Select State' successfully
+
+20-06-2025T20:59:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-06-2025T20:59:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/form/div_Select State' successfully
+
+20-06-2025T20:59:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_Select State")): Object: 'Object Repository/Page_DEMOQA/form/div_Select State' is clicked on
+
+20-06-2025T20:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_Select State' is clicked on
+
+20-06-2025T20:59:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-3-option-1")): Object: 'Object Repository/Page_DEMOQA/form/div_react-select-3-option-1' is clicked on
+
+20-06-2025T20:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_react-select-3-option-1' is clicked on
+
+20-06-2025T20:59:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_Select City")): Object: 'Object Repository/Page_DEMOQA/form/div_Select City' is clicked on
+
+20-06-2025T20:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_Select City' is clicked on
+
+20-06-2025T20:59:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-4-option-1")): Object: 'Object Repository/Page_DEMOQA/form/div_react-select-4-option-1' is clicked on
+
+20-06-2025T20:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_react-select-4-option-1' is clicked on
+
+20-06-2025T20:59:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/button_submit")): Object: 'Object Repository/Page_DEMOQA/form/button_submit' is clicked on
+
+20-06-2025T20:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/button_submit' is clicked on
+
+20-06-2025T20:59:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-06-2025T20:59:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-06-2025T20:59:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/form/input_First Name"), 0): Scroll to object 'Object Repository/Page_DEMOQA/form/input_First Name' successfully
+
+20-06-2025T20:59:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-06-2025T20:59:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/form/input_First Name' successfully
+
+20-06-2025T20:59:36 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+20-06-2025T20:59:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web testing/form/form" time="72.314" classname="Test Cases/web testing/form/form" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) mobil...":"08567567678678","(Default) first...":"Jolie\r\n\t","(Default) email":"jolie@gmail.com\r\n","(Default) last_...":"Felicia","(Default) file":"C:\\Users\\asus2\\Downloads\\WhatsApp Image 2025-02-14 at 22.00.53.jpeg"}]]></property>
+         </properties>
+         <system-out><![CDATA[20-06-2025T20:59:37 - [TEST_CASE][PASSED] - Test Cases/web testing/form/form: Test Cases/web testing/form/form
+
+20-06-2025T20:59:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-06-2025T20:59:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-06-2025T20:59:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-06-2025T20:59:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-06-2025T20:59:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/automation-practice-form"): Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+20-06-2025T21:00:28 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/automation-practice-form' successfully
+
+20-06-2025T21:00:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-06-2025T21:00:28 - [MESSAGE][PASSED] - Current window maximized
+
+20-06-2025T21:00:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_DEMOQA/form/input_First Name"), 0): Scroll to object 'Object Repository/Page_DEMOQA/form/input_First Name' successfully
+
+20-06-2025T21:00:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-06-2025T21:00:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/form/input_First Name' successfully
+
+20-06-2025T21:00:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_First Name"), first_name): Text 'Jolie
+	' is set on object 'Object Repository/Page_DEMOQA/form/input_First Name'
+
+20-06-2025T21:00:31 - [MESSAGE][PASSED] - Text 'Jolie
+	' is set on object 'Object Repository/Page_DEMOQA/form/input_First Name'
+
+20-06-2025T21:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Last Name"), last_name): Text 'Felicia' is set on object 'Object Repository/Page_DEMOQA/form/input_Last Name'
+
+20-06-2025T21:00:31 - [MESSAGE][PASSED] - Text 'Felicia' is set on object 'Object Repository/Page_DEMOQA/form/input_Last Name'
+
+20-06-2025T21:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_nameexample.com"), email): Text 'jolie@gmail.com
+' is set on object 'Object Repository/Page_DEMOQA/form/input_nameexample.com'
+
+20-06-2025T21:00:32 - [MESSAGE][PASSED] - Text 'jolie@gmail.com
+' is set on object 'Object Repository/Page_DEMOQA/form/input_nameexample.com'
+
+20-06-2025T21:00:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/label_Female")): Object: 'Object Repository/Page_DEMOQA/form/label_Female' is clicked on
+
+20-06-2025T21:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/label_Female' is clicked on
+
+20-06-2025T21:00:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Mobile Number"), mobile_number): Text '08567567678678' is set on object 'Object Repository/Page_DEMOQA/form/input_Mobile Number'
+
+20-06-2025T21:00:33 - [MESSAGE][PASSED] - Text '08567567678678' is set on object 'Object Repository/Page_DEMOQA/form/input_Mobile Number'
+
+20-06-2025T21:00:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_dateOfBirthInput"), " "): Text ' ' is set on object 'Object Repository/Page_DEMOQA/form/input_dateOfBirthInput'
+
+20-06-2025T21:00:35 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/Page_DEMOQA/form/input_dateOfBirthInput'
+
+20-06-2025T21:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_dateOfBirthInput"), "19 Jun 2025"): Text '19 Jun 2025' is set on object 'Object Repository/Page_DEMOQA/form/input_dateOfBirthInput'
+
+20-06-2025T21:00:35 - [MESSAGE][PASSED] - Text '19 Jun 2025' is set on object 'Object Repository/Page_DEMOQA/form/input_dateOfBirthInput'
+
+20-06-2025T21:00:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/label_subjects-label")): Object: 'Object Repository/Page_DEMOQA/form/label_subjects-label' is clicked on
+
+20-06-2025T21:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/label_subjects-label' is clicked on
+
+20-06-2025T21:00:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje")): Object: 'Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje' is clicked on
+
+20-06-2025T21:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje' is clicked on
+
+20-06-2025T21:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_subjectsInput"), "maths"): Text 'maths' is set on object 'Object Repository/Page_DEMOQA/form/input_subjectsInput'
+
+20-06-2025T21:00:37 - [MESSAGE][PASSED] - Text 'maths' is set on object 'Object Repository/Page_DEMOQA/form/input_subjectsInput'
+
+20-06-2025T21:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-2-option-0")): Object: 'Object Repository/Page_DEMOQA/form/div_react-select-2-option-0' is clicked on
+
+20-06-2025T21:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_react-select-2-option-0' is clicked on
+
+20-06-2025T21:00:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/label_Reading")): Object: 'Object Repository/Page_DEMOQA/form/label_Reading' is clicked on
+
+20-06-2025T21:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/label_Reading' is clicked on
+
+20-06-2025T21:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/label_Music")): Object: 'Object Repository/Page_DEMOQA/form/label_Music' is clicked on
+
+20-06-2025T21:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/label_Music' is clicked on
+
+20-06-2025T21:00:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/input_Select picture"), file): Text 'C:\Users\asus2\Downloads\WhatsApp Image 2025-02-14 at 22.00.53.jpeg' is set on object 'Object Repository/Page_DEMOQA/form/input_Select picture'
+
+20-06-2025T21:00:40 - [MESSAGE][PASSED] - Text 'C:\Users\asus2\Downloads\WhatsApp Image 2025-02-14 at 22.00.53.jpeg' is set on object 'Object Repository/Page_DEMOQA/form/input_Select picture'
+
+20-06-2025T21:00:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/form/textarea_Current Address"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/Page_DEMOQA/form/textarea_Current Address'
+
+20-06-2025T21:00:40 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Page_DEMOQA/form/textarea_Current Address'
+
+20-06-2025T21:00:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_DEMOQA/form/div_Select State"), 0): Scroll to object 'Object Repository/Page_DEMOQA/form/div_Select State' successfully
+
+20-06-2025T21:00:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-06-2025T21:00:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/form/div_Select State' successfully
+
+20-06-2025T21:00:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_Select State")): Object: 'Object Repository/Page_DEMOQA/form/div_Select State' is clicked on
+
+20-06-2025T21:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_Select State' is clicked on
+
+20-06-2025T21:00:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-3-option-1")): Object: 'Object Repository/Page_DEMOQA/form/div_react-select-3-option-1' is clicked on
+
+20-06-2025T21:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_react-select-3-option-1' is clicked on
+
+20-06-2025T21:00:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_Select City")): Object: 'Object Repository/Page_DEMOQA/form/div_Select City' is clicked on
+
+20-06-2025T21:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_Select City' is clicked on
+
+20-06-2025T21:00:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/div_react-select-4-option-1")): Object: 'Object Repository/Page_DEMOQA/form/div_react-select-4-option-1' is clicked on
+
+20-06-2025T21:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/div_react-select-4-option-1' is clicked on
+
+20-06-2025T21:00:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/form/button_submit")): Object: 'Object Repository/Page_DEMOQA/form/button_submit' is clicked on
+
+20-06-2025T21:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/form/button_submit' is clicked on
+
+20-06-2025T21:00:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-06-2025T21:00:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-06-2025T21:00:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/form/input_First Name"), 0): Scroll to object 'Object Repository/Page_DEMOQA/form/input_First Name' successfully
+
+20-06-2025T21:00:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-06-2025T21:00:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/form/input_First Name' successfully
+
+20-06-2025T21:00:49 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+20-06-2025T21:00:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-06-2025T20:58:09 - [TEST_SUITE][PASSED] - form: Test Cases/web testing/form/form]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

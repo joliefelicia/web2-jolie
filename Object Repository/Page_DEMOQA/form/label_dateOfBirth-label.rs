@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_dateOfBirth-label</name>
+   <tag></tag>
+   <elementGuidId>c048300e-2831-4a79-90dd-114c1039c184</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'dateOfBirth-label']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#dateOfBirth-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Date of Birth&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>a4c4364c-879a-4b26-a6e2-de5960fa2d86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-label</value>
+      <webElementGuid>302982ef-271b-456f-974c-31b6f39bd9e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dateOfBirth-label</value>
+      <webElementGuid>be55ab76-775b-4334-88e2-6614dee36520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>dateOfBirth-label</value>
+      <webElementGuid>1610163b-e328-4eda-8f1d-59356ccf4fe1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Date of Birth</value>
+      <webElementGuid>7ae84c14-0650-4224-9433-99849ddf53a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-eadb9cf4495d6aef44f62fccce55df32</value>
+      <webElementGuid>5997b02a-3966-495a-a896-12136104d507</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'dateOfBirth-label']</value>
+      <webElementGuid>5a42fb12-1849-4365-8524-b3a20160a099</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'dateOfBirth-label']</value>
+      <webElementGuid>95e8d6d4-41cd-42dc-8e0a-431ada06cfbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'dateOfBirth-label' and (text() = 'dateOfBirth-label' or . = 'dateOfBirth-label')]</value>
+      <webElementGuid>c78c461d-da56-4e4b-a7e5-8d4eff3f5ed2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

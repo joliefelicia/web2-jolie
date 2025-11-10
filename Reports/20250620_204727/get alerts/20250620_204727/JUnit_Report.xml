@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="get alerts" time="338.238" tests="4" failures="0" errors="0">
+   <testsuite name="get alerts" tests="4" failures="0" errors="0" time="338.238" skipped="0" timestamp="20-06-2025T20:47:33" hostname="asus2 - Jolie" id="Test Suites/get alerts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\asus2\\git\\web2-jolie\\Reports\\20250620_204727\\get alerts\\20250620_204727"/>
+         <property name="logFiles" value="C:\\Users\\asus2\\git\\web2-jolie\\Reports\\20250620_204727\\get alerts\\20250620_204727\\console0.log, C:\\Users\\asus2\\git\\web2-jolie\\Reports\\20250620_204727\\get alerts\\20250620_204727\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus2 - Jolie"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+         <property name="browser" value="Chrome 137.0.7151.119"/>
+         <property name="userFullName" value="Jolie Felicia"/>
+         <property name="hostAddress" value="192.168.100.3"/>
+         <property name="sessionId" value="20f4eb9d64fdc388b1ded35f11cae126"/>
+         <property name="projectName" value="web2-jolie"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/web testing/alert/alerts" time="74.958" classname="Test Cases/web testing/alert/alerts" status="PASSED">
+         <system-out><![CDATA[20-06-2025T20:47:34 - [TEST_CASE][PASSED] - Test Cases/web testing/alert/alerts: Test Cases/web testing/alert/alerts
+
+20-06-2025T20:47:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-06-2025T20:47:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-06-2025T20:47:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-06-2025T20:47:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-06-2025T20:47:39 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/alerts"): Navigate to 'https://demoqa.com/alerts' successfully
+
+20-06-2025T20:48:41 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/alerts' successfully
+
+20-06-2025T20:48:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/alert/button_alertButton"), 0): Scroll to object 'Object Repository/Page_DEMOQA/alert/button_alertButton' successfully
+
+20-06-2025T20:48:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-06-2025T20:48:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/alert/button_alertButton' successfully
+
+20-06-2025T20:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/alert/button_alertButton")): Object: 'Object Repository/Page_DEMOQA/alert/button_alertButton' is clicked on
+
+20-06-2025T20:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/alert/button_alertButton' is clicked on
+
+20-06-2025T20:48:43 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+20-06-2025T20:48:43 - [TEST_STEP][PASSED] - AlertText = alert().getText(): null
+
+20-06-2025T20:48:43 - [TEST_STEP][PASSED] - println(AlertText): null
+
+20-06-2025T20:48:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-06-2025T20:48:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-06-2025T20:48:48 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+20-06-2025T20:48:48 - [MESSAGE][PASSED] - Alert accepted
+
+20-06-2025T20:48:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-06-2025T20:48:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web testing/alert/confirm alert" time="92.671" classname="Test Cases/web testing/alert/confirm alert" status="PASSED">
+         <system-out><![CDATA[20-06-2025T20:48:49 - [TEST_CASE][PASSED] - Test Cases/web testing/alert/confirm alert: Test Cases/web testing/alert/confirm alert
+
+20-06-2025T20:48:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-06-2025T20:48:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-06-2025T20:48:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-06-2025T20:48:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-06-2025T20:48:52 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/alerts"): Navigate to 'https://demoqa.com/alerts' successfully
+
+20-06-2025T20:50:08 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/alerts' successfully
+
+20-06-2025T20:50:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/alert/button_confirmButton"), 0): Scroll to object 'Object Repository/Page_DEMOQA/alert/button_confirmButton' successfully
+
+20-06-2025T20:50:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-06-2025T20:50:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/alert/button_confirmButton' successfully
+
+20-06-2025T20:50:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/alert/button_confirmButton")): Object: 'Object Repository/Page_DEMOQA/alert/button_confirmButton' is clicked on
+
+20-06-2025T20:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/alert/button_confirmButton' is clicked on
+
+20-06-2025T20:50:10 - [TEST_STEP][PASSED] - dismissAlert(): Alert dismissed
+
+20-06-2025T20:50:10 - [MESSAGE][PASSED] - Alert dismissed
+
+20-06-2025T20:50:10 - [TEST_STEP][PASSED] - data = getText(findTestObject("Page_DEMOQA/alert/span_confirmResult")): Text of object 'Object Repository/Page_DEMOQA/alert/span_confirmResult' is: 'You selected Cancel'
+
+20-06-2025T20:50:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_DEMOQA/alert/span_confirmResult' is: 'You selected Cancel'
+
+20-06-2025T20:50:11 - [TEST_STEP][PASSED] - println(data): null
+
+20-06-2025T20:50:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-06-2025T20:50:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-06-2025T20:50:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/alert/button_confirmButton")): Object: 'Object Repository/Page_DEMOQA/alert/button_confirmButton' is clicked on
+
+20-06-2025T20:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/alert/button_confirmButton' is clicked on
+
+20-06-2025T20:50:16 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+20-06-2025T20:50:16 - [MESSAGE][PASSED] - Alert accepted
+
+20-06-2025T20:50:16 - [TEST_STEP][PASSED] - data = getText(findTestObject("Page_DEMOQA/alert/span_confirmResult")): Text of object 'Object Repository/Page_DEMOQA/alert/span_confirmResult' is: 'You selected Ok'
+
+20-06-2025T20:50:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_DEMOQA/alert/span_confirmResult' is: 'You selected Ok'
+
+20-06-2025T20:50:16 - [TEST_STEP][PASSED] - println(data): null
+
+20-06-2025T20:50:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-06-2025T20:50:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-06-2025T20:50:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-06-2025T20:50:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web testing/alert/prompt alert" time="84.62" classname="Test Cases/web testing/alert/prompt alert" status="PASSED">
+         <system-out><![CDATA[20-06-2025T20:50:22 - [TEST_CASE][PASSED] - Test Cases/web testing/alert/prompt alert: Test Cases/web testing/alert/prompt alert
+
+20-06-2025T20:50:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-06-2025T20:50:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-06-2025T20:50:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-06-2025T20:50:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-06-2025T20:50:23 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/alerts"): Navigate to 'https://demoqa.com/alerts' successfully
+
+20-06-2025T20:51:24 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/alerts' successfully
+
+20-06-2025T20:51:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/alert/button_promtButton"), 0): Scroll to object 'Object Repository/Page_DEMOQA/alert/button_promtButton' successfully
+
+20-06-2025T20:51:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-06-2025T20:51:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/alert/button_promtButton' successfully
+
+20-06-2025T20:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/alert/button_promtButton")): Object: 'Object Repository/Page_DEMOQA/alert/button_promtButton' is clicked on
+
+20-06-2025T20:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/alert/button_promtButton' is clicked on
+
+20-06-2025T20:51:25 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+20-06-2025T20:51:25 - [TEST_STEP][PASSED] - alert().sendKeys("Testing"): null
+
+20-06-2025T20:51:35 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+20-06-2025T20:51:35 - [MESSAGE][PASSED] - Alert accepted
+
+20-06-2025T20:51:35 - [TEST_STEP][PASSED] - inputdata = getText(findTestObject("Page_DEMOQA/alert/span_promptResult")): Text of object 'Object Repository/Page_DEMOQA/alert/span_promptResult' is: 'You entered Testing'
+
+20-06-2025T20:51:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_DEMOQA/alert/span_promptResult' is: 'You entered Testing'
+
+20-06-2025T20:51:36 - [TEST_STEP][PASSED] - println(inputdata): null
+
+20-06-2025T20:51:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+20-06-2025T20:51:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+20-06-2025T20:51:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-06-2025T20:51:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web testing/alert/timer alert" time="85.147" classname="Test Cases/web testing/alert/timer alert" status="PASSED">
+         <system-out><![CDATA[20-06-2025T20:51:46 - [TEST_CASE][PASSED] - Test Cases/web testing/alert/timer alert: Test Cases/web testing/alert/timer alert
+
+20-06-2025T20:51:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-06-2025T20:51:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-06-2025T20:51:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-06-2025T20:51:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-06-2025T20:51:49 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/alerts"): Navigate to 'https://demoqa.com/alerts' successfully
+
+20-06-2025T20:52:54 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/alerts' successfully
+
+20-06-2025T20:52:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_DEMOQA/alert/button_timerAlertButton"), 0): Scroll to object 'Object Repository/Page_DEMOQA/alert/button_timerAlertButton' successfully
+
+20-06-2025T20:52:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-06-2025T20:52:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_DEMOQA/alert/button_timerAlertButton' successfully
+
+20-06-2025T20:52:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/alert/button_timerAlertButton")): Object: 'Object Repository/Page_DEMOQA/alert/button_timerAlertButton' is clicked on
+
+20-06-2025T20:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/alert/button_timerAlertButton' is clicked on
+
+20-06-2025T20:52:55 - [TEST_STEP][WARNING] - waitForAlert(5): No alert found after 5 second(s).
+
+20-06-2025T20:53:01 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+20-06-2025T20:53:01 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+20-06-2025T20:53:01 - [TEST_STEP][PASSED] - AlertText = alert().getText(): null
+
+20-06-2025T20:53:01 - [TEST_STEP][PASSED] - println(AlertText): null
+
+20-06-2025T20:53:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-06-2025T20:53:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-06-2025T20:53:06 - [TEST_STEP][PASSED] - acceptAlert(STOP_ON_FAILURE): Alert accepted
+
+20-06-2025T20:53:06 - [MESSAGE][PASSED] - Alert accepted
+
+20-06-2025T20:53:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-06-2025T20:53:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-06-2025T20:53:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-06-2025T20:53:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-06-2025T20:47:33 - [TEST_SUITE][PASSED] - get alerts: Test Cases/web testing/alert/timer alert]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

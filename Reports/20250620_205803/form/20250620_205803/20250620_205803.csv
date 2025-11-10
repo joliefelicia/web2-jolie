@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+form,Chrome 137.0.7151.119,,,20-06-2025 20:58:09,20-06-2025 21:00:49,2m - 40.492s,PASSED
+,,,,,,,
+Test Cases/web testing/form/form,Chrome 137.0.7151.119,,,20-06-2025 20:58:09,20-06-2025 20:59:37,1m - 27.482s,PASSED
+"DATA BINDING - {""(Default) mobil..."":""08567567678678"",""(Default) first..."":""Jolie\r\n\t"",""(Default) email"":""jolie@gmail.com\r\n"",""(Default) last_..."":""Felicia"",""(Default) file"":""C:\\Users\\asus2\\Downloads\\WhatsApp Image 2025-02-14 at 22.00.53.jpeg""}",,,,,,,
+"openBrowser("""")",Chrome 137.0.7151.119,,,20-06-2025 20:58:10,20-06-2025 20:58:14,3.812s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 137.0.7151.119,,,20-06-2025 20:58:14,20-06-2025 20:59:15,1m - 0.978s,PASSED
+maximizeWindow(),Chrome 137.0.7151.119,,,20-06-2025 20:59:15,20-06-2025 20:59:15,0.156s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_DEMOQA/form/input_First Name""), 0)",Chrome 137.0.7151.119,,,20-06-2025 20:59:15,20-06-2025 20:59:17,1.566s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_First Name""), first_name)",Chrome 137.0.7151.119,,,20-06-2025 20:59:17,20-06-2025 20:59:18,0.996s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_Last Name""), last_name)",Chrome 137.0.7151.119,,,20-06-2025 20:59:18,20-06-2025 20:59:18,0.735s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_nameexample.com""), email)",Chrome 137.0.7151.119,,,20-06-2025 20:59:18,20-06-2025 20:59:19,0.809s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/label_Female""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:19,20-06-2025 20:59:20,0.487s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_Mobile Number""), mobile_number)",Chrome 137.0.7151.119,,,20-06-2025 20:59:20,20-06-2025 20:59:21,0.810s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_dateOfBirthInput""), "" "")",Chrome 137.0.7151.119,,,20-06-2025 20:59:21,20-06-2025 20:59:22,1.068s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_dateOfBirthInput""), ""19 Jun 2025"")",Chrome 137.0.7151.119,,,20-06-2025 20:59:22,20-06-2025 20:59:22,0.797s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/label_subjects-label""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:22,20-06-2025 20:59:23,0.418s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:23,20-06-2025 20:59:23,0.430s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_subjectsInput""), ""maths"")",Chrome 137.0.7151.119,,,20-06-2025 20:59:23,20-06-2025 20:59:24,0.969s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_react-select-2-option-0""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:24,20-06-2025 20:59:25,0.631s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/label_Reading""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:25,20-06-2025 20:59:26,0.650s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/label_Music""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:26,20-06-2025 20:59:26,0.445s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_Select picture""), file)",Chrome 137.0.7151.119,,,20-06-2025 20:59:26,20-06-2025 20:59:27,0.699s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/textarea_Current Address""), ""Jakarta"")",Chrome 137.0.7151.119,,,20-06-2025 20:59:27,20-06-2025 20:59:27,0.793s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_DEMOQA/form/div_Select State""), 0)",Chrome 137.0.7151.119,,,20-06-2025 20:59:27,20-06-2025 20:59:28,0.326s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_Select State""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:28,20-06-2025 20:59:28,0.410s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_react-select-3-option-1""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:28,20-06-2025 20:59:29,0.621s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_Select City""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:29,20-06-2025 20:59:29,0.634s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_react-select-4-option-1""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:29,20-06-2025 20:59:30,0.641s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/button_submit""))",Chrome 137.0.7151.119,,,20-06-2025 20:59:30,20-06-2025 20:59:31,0.679s,PASSED
+delay(5),Chrome 137.0.7151.119,,,20-06-2025 20:59:31,20-06-2025 20:59:36,5.092s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/form/input_First Name""), 0)",Chrome 137.0.7151.119,,,20-06-2025 20:59:36,20-06-2025 20:59:36,0.485s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 137.0.7151.119,,,20-06-2025 20:59:36,20-06-2025 20:59:37,0.589s,PASSED
+,,,,,,,
+Test Cases/web testing/form/form,Chrome 137.0.7151.119,,,20-06-2025 20:59:37,20-06-2025 21:00:49,1m - 12.314s,PASSED
+"DATA BINDING - {""(Default) mobil..."":""08567567678678"",""(Default) first..."":""Jolie\r\n\t"",""(Default) email"":""jolie@gmail.com\r\n"",""(Default) last_..."":""Felicia"",""(Default) file"":""C:\\Users\\asus2\\Downloads\\WhatsApp Image 2025-02-14 at 22.00.53.jpeg""}",,,,,,,
+"openBrowser("""")",Chrome 137.0.7151.119,,,20-06-2025 20:59:37,20-06-2025 20:59:40,2.834s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 137.0.7151.119,,,20-06-2025 20:59:40,20-06-2025 21:00:28,48.291s,PASSED
+maximizeWindow(),Chrome 137.0.7151.119,,,20-06-2025 21:00:28,20-06-2025 21:00:28,0.125s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_DEMOQA/form/input_First Name""), 0)",Chrome 137.0.7151.119,,,20-06-2025 21:00:28,20-06-2025 21:00:30,1.562s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_First Name""), first_name)",Chrome 137.0.7151.119,,,20-06-2025 21:00:30,20-06-2025 21:00:31,0.867s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_Last Name""), last_name)",Chrome 137.0.7151.119,,,20-06-2025 21:00:31,20-06-2025 21:00:31,0.709s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_nameexample.com""), email)",Chrome 137.0.7151.119,,,20-06-2025 21:00:31,20-06-2025 21:00:32,0.783s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/label_Female""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:32,20-06-2025 21:00:33,0.451s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_Mobile Number""), mobile_number)",Chrome 137.0.7151.119,,,20-06-2025 21:00:33,20-06-2025 21:00:33,0.780s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_dateOfBirthInput""), "" "")",Chrome 137.0.7151.119,,,20-06-2025 21:00:33,20-06-2025 21:00:35,1.067s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_dateOfBirthInput""), ""19 Jun 2025"")",Chrome 137.0.7151.119,,,20-06-2025 21:00:35,20-06-2025 21:00:35,0.932s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/label_subjects-label""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:35,20-06-2025 21:00:36,0.424s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:36,20-06-2025 21:00:36,0.411s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_subjectsInput""), ""maths"")",Chrome 137.0.7151.119,,,20-06-2025 21:00:36,20-06-2025 21:00:37,0.935s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_react-select-2-option-0""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:37,20-06-2025 21:00:38,0.653s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/label_Reading""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:38,20-06-2025 21:00:39,0.654s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/label_Music""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:39,20-06-2025 21:00:39,0.425s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/input_Select picture""), file)",Chrome 137.0.7151.119,,,20-06-2025 21:00:39,20-06-2025 21:00:40,0.674s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/form/textarea_Current Address""), ""Jakarta"")",Chrome 137.0.7151.119,,,20-06-2025 21:00:40,20-06-2025 21:00:40,0.712s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Page_DEMOQA/form/div_Select State""), 0)",Chrome 137.0.7151.119,,,20-06-2025 21:00:40,20-06-2025 21:00:41,0.320s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_Select State""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:41,20-06-2025 21:00:41,0.416s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_react-select-3-option-1""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:41,20-06-2025 21:00:42,0.656s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_Select City""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:42,20-06-2025 21:00:42,0.629s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/div_react-select-4-option-1""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:42,20-06-2025 21:00:43,0.610s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/form/button_submit""))",Chrome 137.0.7151.119,,,20-06-2025 21:00:43,20-06-2025 21:00:44,0.631s,PASSED
+delay(5),Chrome 137.0.7151.119,,,20-06-2025 21:00:44,20-06-2025 21:00:49,5.018s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/form/input_First Name""), 0)",Chrome 137.0.7151.119,,,20-06-2025 21:00:49,20-06-2025 21:00:49,0.302s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 137.0.7151.119,,,20-06-2025 21:00:49,20-06-2025 21:00:49,0.357s,PASSED
