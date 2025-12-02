@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_presentation</name>
+   <tag></tag>
+   <elementGuidId>feb4e062-3855-4101-8c5f-6aa8d9c246f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recaptcha-checkbox-border ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.recaptcha-checkbox-border</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>315bf607-3a2c-47dd-994b-8672446d2c13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>recaptcha-checkbox-border</value>
+      <webElementGuid>588bf644-8075-4888-806f-098f0af6fb34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>0686f54f-87a2-4502-9651-1312a07948c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a58beae8527d6e6688fcd9ed439e11e5</value>
+      <webElementGuid>74be0caa-42e4-47c2-bf81-75233b2b8a44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recaptcha-checkbox-border ')]</value>
+      <webElementGuid>abba5891-ce10-4799-815d-1a1c3d3f97e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv</value>
+      <webElementGuid>a18b66ef-c11c-4ebe-ab2d-772a76af1bf5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recaptcha-checkbox-border ')]</value>
+      <webElementGuid>747e96a3-5c83-4431-bb95-da9e02c9edd0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

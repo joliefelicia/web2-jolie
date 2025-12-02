@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_droppable</name>
+   <tag></tag>
+   <elementGuidId>2c2d52b3-ee12-44c4-b17a-dd9f0044a8a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.ui-droppable.ui-state-highlight</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'droppable']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'droppable' and (text() = 'Dropped!' or . = 'Dropped!')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3c062d89-b8e9-4fe4-ac68-aa9c241712a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>droppable</value>
+      <webElementGuid>e176308b-f688-4a9b-ad33-512e73fd4b52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>drop-box ui-droppable ui-state-highlight</value>
+      <webElementGuid>b6ec439e-80bd-49d0-b969-1fa3f8908a77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dropped!</value>
+      <webElementGuid>e04dd235-b8bc-47be-9dac-25ebbb5b932a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-4587607216907dcda439bbd02ba9faca</value>
+      <webElementGuid>7b9be20d-ea42-4777-970a-94d6b3d3bf5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ui-droppable ') and contains(concat(' ', normalize-space(@class), ' '), ' ui-state-highlight ')]</value>
+      <webElementGuid>6985e81d-84b7-4e17-aec0-9a7a6b969de1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id =  'droppable']</value>
+      <webElementGuid>a5f57e61-f883-4983-80e9-f26b4bfc0219</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'droppable' and (text() = 'Dropped!' or . = 'Dropped!')]</value>
+      <webElementGuid>6048f2b7-15cd-46d3-a560-608bbbfacd71</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

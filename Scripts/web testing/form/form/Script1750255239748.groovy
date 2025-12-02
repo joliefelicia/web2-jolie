@@ -23,50 +23,58 @@ WebUI.navigateToUrl('https://demoqa.com/automation-practice-form')
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_DEMOQA/form/input_First Name'), 0)
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/form/input_First Name'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_First Name'), first_name)
+WebUI.setText(findTestObject('Page_DEMOQA/form/input_First Name'), first_name)
 
-WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_Last Name'), last_name)
+WebUI.setText(findTestObject('Page_DEMOQA/form/input_Last Name'), last_name)
 
-WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_nameexample.com'), email)
+WebUI.setText(findTestObject('Page_DEMOQA/form/input_nameexample.com'), email)
 
-WebUI.check(findTestObject('Object Repository/Page_DEMOQA/form/label_Female'))
+WebUI.check(findTestObject('Page_DEMOQA/form/label_Female'))
 
-WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_Mobile Number'), mobile_number)
+WebUI.setText(findTestObject('Page_DEMOQA/form/input_Mobile Number'), mobile_number)
 
 WebUI.doubleClick(findTestObject('Page_DEMOQA/form/input_dateOfBirthInput'))
 
-//WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_dateOfBirthInput'), ' ')
-WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_dateOfBirthInput'), tanggal)
+WebUI.click(findTestObject('Page_DEMOQA/form/input_dateOfBirthInput'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/label_subjects-label'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/select_JanuaryFebruaryMarchAprilMayJuneJulyAugus'), '5', true)
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_subjects-auto-complete_value-container subje'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/select_19001901190219031904190519061907190819091'), '2000', 
+    true)
 
-WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/input_subjectsInput'), 'maths')
+WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_Choose Wednesday, June 14th, 2000'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_react-select-2-option-0'))
+WebUI.click(findTestObject('Page_DEMOQA/form/label_subjects-label'))
 
-WebUI.check(findTestObject('Object Repository/Page_DEMOQA/form/label_Reading'))
+WebUI.click(findTestObject('Page_DEMOQA/form/div_subjects-auto-complete_value-container subje'))
 
-WebUI.check(findTestObject('Object Repository/Page_DEMOQA/form/label_Music'))
+WebUI.setText(findTestObject('Page_DEMOQA/form/input_subjectsInput'), 'maths')
+
+WebUI.click(findTestObject('Page_DEMOQA/form/div_react-select-2-option-0'))
+
+WebUI.check(findTestObject('Page_DEMOQA/form/label_Reading'))
+
+WebUI.check(findTestObject('Page_DEMOQA/form/label_Music'))
 
 WebUI.uploadFile(findTestObject('Page_DEMOQA/form/input_Select picture'), file)
 
-WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/form/textarea_Current Address'), 'Jakarta')
+WebUI.setText(findTestObject('Object Repository/textarea_Current Address'), 'Jakarta')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_DEMOQA/form/div_Select State'), 0)
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/form/div_Select State'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_Select State'))
+WebUI.click(findTestObject('Page_DEMOQA/form/div_Select State'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_react-select-3-option-1'))
+WebUI.click(findTestObject('Page_DEMOQA/form/div_react-select-3-option-1'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_Select City'))
+WebUI.click(findTestObject('Page_DEMOQA/form/div_Select City'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/div_react-select-4-option-1'))
+WebUI.click(findTestObject('Page_DEMOQA/form/div_react-select-4-option-1'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/form/button_submit'))
+WebUI.click(findTestObject('Page_DEMOQA/form/button_submit'))
 
 WebUI.delay(10)
+
+WebUI.closeBrowser()
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register In Book Store</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>638d1ba3-6965-4358-abdd-f3be47fe1eb5</testCaseGuid>
+</TestCaseEntity>
