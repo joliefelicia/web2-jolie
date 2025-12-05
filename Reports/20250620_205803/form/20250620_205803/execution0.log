@@ -3116,4 +3116,5 @@
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+<!DOCTYPE log SYSTEM "logger.dtd">
 </log>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login book store</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5a858e9-1b2a-4b2a-acc8-b51fd260e717</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4897569c-518d-4d78-b040-7f3e2d97d97e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a4d3cc4e-4dae-4d23-8dc7-8fa155a0eb69</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'joliefeliciaa'</defaultValue>
+      <description></description>
+      <id>4897569c-518d-4d78-b040-7f3e2d97d97e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456789$abcD\r\n'</defaultValue>
+      <description></description>
+      <id>a4d3cc4e-4dae-4d23-8dc7-8fa155a0eb69</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

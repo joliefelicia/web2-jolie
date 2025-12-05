@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>searching book in book store</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bc4f2e60-b69d-4b35-9004-75f3a2a17d27</testCaseGuid>
+</TestCaseEntity>

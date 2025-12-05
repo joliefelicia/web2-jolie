@@ -6,4 +6,56 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>638d1ba3-6965-4358-abdd-f3be47fe1eb5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44164299-9153-4c5f-8b11-df2ce191ab7e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51404590-5130-4c3c-96be-423d2cccf7c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84c126fe-17c9-48d2-9dab-adae9716b23a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>020ac20a-7a4f-422a-b4b3-fc4b73e370d6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jolie\r\n\r\n'</defaultValue>
+      <description></description>
+      <id>44164299-9153-4c5f-8b11-df2ce191ab7e</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Felicia'</defaultValue>
+      <description></description>
+      <id>51404590-5130-4c3c-96be-423d2cccf7c5</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'joliefeliciaa'</defaultValue>
+      <description></description>
+      <id>84c126fe-17c9-48d2-9dab-adae9716b23a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456789abcD$'</defaultValue>
+      <description></description>
+      <id>020ac20a-7a4f-422a-b4b3-fc4b73e370d6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

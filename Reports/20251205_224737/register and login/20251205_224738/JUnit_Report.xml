@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="register and login" time="89.151" tests="4" failures="0" errors="0">
+   <testsuite name="register and login" tests="4" failures="0" errors="0" time="89.151" skipped="0" timestamp="2025-12-05T15:47:43.969Z" hostname="asus2 - Jolie" id="Test Suites/register and login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\asus2\\Katalon Studio\\web2-jolie-main\\Reports\\20251205_224737\\register and login\\20251205_224738"/>
+         <property name="logFiles" value="C:\\Users\\asus2\\Katalon Studio\\web2-jolie-main\\Reports\\20251205_224737\\register and login\\20251205_224738\\console0.log, C:\\Users\\asus2\\Katalon Studio\\web2-jolie-main\\Reports\\20251205_224737\\register and login\\20251205_224738\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asus2 - Jolie"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.0.0"/>
+         <property name="browser" value="Chrome 142.0.7444.177"/>
+         <property name="userFullName" value="Jolie Felicia"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="sessionId" value="2e41f8e78fda2c8773c5221127a0556e"/>
+         <property name="projectName" value="web2-jolie"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store" time="26.762" classname="Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstname":"Yuzuha","password":"123$abcD","lastname":"Usagi","username":"usagiclimber"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-12-2025T22:47:44 - [TEST_CASE][PASSED] - Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store: Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store
+
+05-12-2025T22:47:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-12-2025T22:47:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-12-2025T22:47:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-12-2025T22:47:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-12-2025T22:47:51 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/login"): Navigate to 'https://demoqa.com/login' successfully
+
+05-12-2025T22:48:04 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/login' successfully
+
+05-12-2025T22:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/register bookstore/button_newUser")): Object: 'Object Repository/Page_DEMOQA/register bookstore/button_newUser' is clicked on
+
+05-12-2025T22:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/register bookstore/button_newUser' is clicked on
+
+05-12-2025T22:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_First Name"), firstname): Text 'Yuzuha' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_First Name'
+
+05-12-2025T22:48:07 - [MESSAGE][PASSED] - Text 'Yuzuha' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_First Name'
+
+05-12-2025T22:48:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_Last Name"), lastname): Text 'Usagi' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Last Name'
+
+05-12-2025T22:48:08 - [MESSAGE][PASSED] - Text 'Usagi' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Last Name'
+
+05-12-2025T22:48:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_UserName"), username): Text 'usagiclimber' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_UserName'
+
+05-12-2025T22:48:09 - [MESSAGE][PASSED] - Text 'usagiclimber' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_UserName'
+
+05-12-2025T22:48:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_Password"), password): Text '123$abcD' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Password'
+
+05-12-2025T22:48:10 - [MESSAGE][PASSED] - Text '123$abcD' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Password'
+
+05-12-2025T22:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv")): Object: 'Object Repository/Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv' is clicked on
+
+05-12-2025T22:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv' is clicked on
+
+05-12-2025T22:48:10 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+05-12-2025T22:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/register bookstore/button_register")): Object: 'Object Repository/Page_DEMOQA/register bookstore/button_register' is clicked on
+
+05-12-2025T22:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/register bookstore/button_register' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store" time="25.674" classname="Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstname":"Ryohei","password":"1234354abcd","lastname":"Arisu","username":"arisugamersboy"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-12-2025T22:48:11 - [TEST_CASE][PASSED] - Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store: Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store
+
+05-12-2025T22:48:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-12-2025T22:48:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-12-2025T22:48:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-12-2025T22:48:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-12-2025T22:48:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-12-2025T22:48:15 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/login"): Navigate to 'https://demoqa.com/login' successfully
+
+05-12-2025T22:48:29 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/login' successfully
+
+05-12-2025T22:48:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/register bookstore/button_newUser")): Object: 'Object Repository/Page_DEMOQA/register bookstore/button_newUser' is clicked on
+
+05-12-2025T22:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/register bookstore/button_newUser' is clicked on
+
+05-12-2025T22:48:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_First Name"), firstname): Text 'Ryohei' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_First Name'
+
+05-12-2025T22:48:33 - [MESSAGE][PASSED] - Text 'Ryohei' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_First Name'
+
+05-12-2025T22:48:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_Last Name"), lastname): Text 'Arisu' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Last Name'
+
+05-12-2025T22:48:34 - [MESSAGE][PASSED] - Text 'Arisu' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Last Name'
+
+05-12-2025T22:48:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_UserName"), username): Text 'arisugamersboy' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_UserName'
+
+05-12-2025T22:48:35 - [MESSAGE][PASSED] - Text 'arisugamersboy' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_UserName'
+
+05-12-2025T22:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_Password"), password): Text '1234354abcd' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Password'
+
+05-12-2025T22:48:36 - [MESSAGE][PASSED] - Text '1234354abcd' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Password'
+
+05-12-2025T22:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv")): Object: 'Object Repository/Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv' is clicked on
+
+05-12-2025T22:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv' is clicked on
+
+05-12-2025T22:48:36 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+05-12-2025T22:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/register bookstore/button_register")): Object: 'Object Repository/Page_DEMOQA/register bookstore/button_register' is clicked on
+
+05-12-2025T22:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/register bookstore/button_register' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store" time="19.061" classname="Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"123$abcD","username":"usagiclimber"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-12-2025T22:48:37 - [TEST_CASE][PASSED] - Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store: Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store
+
+05-12-2025T22:48:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-12-2025T22:48:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-12-2025T22:48:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-12-2025T22:48:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-12-2025T22:48:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-12-2025T22:48:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/login"): Navigate to 'https://demoqa.com/login' successfully
+
+05-12-2025T22:48:53 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/login' successfully
+
+05-12-2025T22:48:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_UserName"), username): Text 'usagiclimber' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_UserName'
+
+05-12-2025T22:48:54 - [MESSAGE][PASSED] - Text 'usagiclimber' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_UserName'
+
+05-12-2025T22:48:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_Password"), password): Text '123$abcD' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Password'
+
+05-12-2025T22:48:55 - [MESSAGE][PASSED] - Text '123$abcD' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Password'
+
+05-12-2025T22:48:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/register bookstore/button_Password_login")): Object: 'Object Repository/Page_DEMOQA/register bookstore/button_Password_login' is clicked on
+
+05-12-2025T22:48:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/register bookstore/button_Password_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store" time="16.631" classname="Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"1234354abcd","username":"arisugamersboy"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-12-2025T22:48:56 - [TEST_CASE][PASSED] - Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store: Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store
+
+05-12-2025T22:48:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-12-2025T22:48:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-12-2025T22:48:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-12-2025T22:48:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-12-2025T22:48:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-12-2025T22:48:59 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/login"): Navigate to 'https://demoqa.com/login' successfully
+
+05-12-2025T22:49:09 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/login' successfully
+
+05-12-2025T22:49:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_UserName"), username): Text 'arisugamersboy' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_UserName'
+
+05-12-2025T22:49:11 - [MESSAGE][PASSED] - Text 'arisugamersboy' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_UserName'
+
+05-12-2025T22:49:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_DEMOQA/register bookstore/input_Password"), password): Text '1234354abcd' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Password'
+
+05-12-2025T22:49:12 - [MESSAGE][PASSED] - Text '1234354abcd' is set on object 'Object Repository/Page_DEMOQA/register bookstore/input_Password'
+
+05-12-2025T22:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/register bookstore/button_Password_login")): Object: 'Object Repository/Page_DEMOQA/register bookstore/button_Password_login' is clicked on
+
+05-12-2025T22:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/register bookstore/button_Password_login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-12-2025T22:47:43 - [TEST_SUITE][PASSED] - register and login: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

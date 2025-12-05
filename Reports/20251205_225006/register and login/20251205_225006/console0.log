@@ -1,0 +1,114 @@
+2025-12-05 22:50:11.249 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\asus2\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-12-05 22:50:11.253 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\asus2\Katalon Studio\web2-jolie-main\Include\config\log.properties
+2025-12-05 22:50:11.426 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/register and login
+2025-12-05 22:50:11.556 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Jolie Felicia
+2025-12-05 22:50:11.557 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = web2-jolie
+2025-12-05 22:50:11.558 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = asus2 - Jolie
+2025-12-05 22:50:11.559 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-05 22:50:11.561 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.4
+2025-12-05 22:50:11.562 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-12-05 22:50:12.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-05 22:50:12.332 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store
+2025-12-05 22:50:12.391 INFO  c.k.katalon.core.main.TestCaseExecutor   - firstname = Yuzuha
+2025-12-05 22:50:12.392 INFO  c.k.katalon.core.main.TestCaseExecutor   - lastname = Usagi
+2025-12-05 22:50:12.393 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = usagiclimber
+2025-12-05 22:50:12.394 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 123$abcD
+2025-12-05 22:50:12.848 DEBUG testcase.Register In Book Store          - 1: openBrowser("")
+2025-12-05 22:50:13.170 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-05 22:50:13.249 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 05, 2025 10:50:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-05 22:50:18.459 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2764f14b595114827cf4aa19e49cb59e
+2025-12-05 22:50:18.461 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.177
+2025-12-05 22:50:18.463 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-05 22:50:18.464 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-05 22:50:18.489 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-05 22:50:18.459 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2764f14b595114827cf4aa19e49cb59e
+2025-12-05 22:50:18.461 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.177
+2025-12-05 22:50:18.463 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-05 22:50:18.464 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-05 22:50:18.489 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-05 22:50:18.630 DEBUG testcase.Register In Book Store          - 2: navigateToUrl("https://demoqa.com/login")
+2025-12-05 22:50:33.263 DEBUG testcase.Register In Book Store          - 3: click(findTestObject("Page_DEMOQA/register bookstore/button_newUser"))
+2025-12-05 22:50:34.578 DEBUG testcase.Register In Book Store          - 4: setText(findTestObject("Page_DEMOQA/register bookstore/input_First Name"), firstname)
+2025-12-05 22:50:36.437 DEBUG testcase.Register In Book Store          - 5: setText(findTestObject("Page_DEMOQA/register bookstore/input_Last Name"), lastname)
+2025-12-05 22:50:37.416 DEBUG testcase.Register In Book Store          - 6: setText(findTestObject("Page_DEMOQA/register bookstore/input_UserName"), username)
+2025-12-05 22:50:38.380 DEBUG testcase.Register In Book Store          - 7: setText(findTestObject("Page_DEMOQA/register bookstore/input_Password"), password)
+2025-12-05 22:50:39.381 DEBUG testcase.Register In Book Store          - 8: click(findTestObject("Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv"))
+2025-12-05 22:50:39.993 DEBUG testcase.Register In Book Store          - 9: switchToDefaultContent()
+2025-12-05 22:50:40.166 DEBUG testcase.Register In Book Store          - 10: click(findTestObject("Page_DEMOQA/register bookstore/button_register"))
+2025-12-05 22:50:40.755 DEBUG testcase.Register In Book Store          - 11: delay(5)
+2025-12-05 22:50:45.875 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store
+2025-12-05 22:50:46.053 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-05 22:50:46.053 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store
+2025-12-05 22:50:46.107 INFO  c.k.katalon.core.main.TestCaseExecutor   - firstname = Ryohei
+2025-12-05 22:50:46.109 INFO  c.k.katalon.core.main.TestCaseExecutor   - lastname = Arisu
+2025-12-05 22:50:46.110 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = arisugamersboy
+2025-12-05 22:50:46.111 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 1234354abcd
+2025-12-05 22:50:46.116 DEBUG testcase.Register In Book Store          - 1: openBrowser("")
+2025-12-05 22:50:46.127 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-12-05 22:50:46.799 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-05 22:50:46.803 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 05, 2025 10:50:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-05 22:50:49.729 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = aee7fc162fa6624e8f2383e1eb4042c1
+2025-12-05 22:50:49.730 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.177
+2025-12-05 22:50:49.731 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-05 22:50:49.733 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-05 22:50:49.735 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-05 22:50:49.788 DEBUG testcase.Register In Book Store          - 2: navigateToUrl("https://demoqa.com/login")
+2025-12-05 22:51:04.393 DEBUG testcase.Register In Book Store          - 3: click(findTestObject("Page_DEMOQA/register bookstore/button_newUser"))
+2025-12-05 22:51:06.200 DEBUG testcase.Register In Book Store          - 4: setText(findTestObject("Page_DEMOQA/register bookstore/input_First Name"), firstname)
+2025-12-05 22:51:08.020 DEBUG testcase.Register In Book Store          - 5: setText(findTestObject("Page_DEMOQA/register bookstore/input_Last Name"), lastname)
+2025-12-05 22:51:09.125 DEBUG testcase.Register In Book Store          - 6: setText(findTestObject("Page_DEMOQA/register bookstore/input_UserName"), username)
+2025-12-05 22:51:10.182 DEBUG testcase.Register In Book Store          - 7: setText(findTestObject("Page_DEMOQA/register bookstore/input_Password"), password)
+2025-12-05 22:51:11.229 DEBUG testcase.Register In Book Store          - 8: click(findTestObject("Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv"))
+2025-12-05 22:51:11.878 DEBUG testcase.Register In Book Store          - 9: switchToDefaultContent()
+2025-12-05 22:51:11.950 DEBUG testcase.Register In Book Store          - 10: click(findTestObject("Page_DEMOQA/register bookstore/button_register"))
+2025-12-05 22:51:12.477 DEBUG testcase.Register In Book Store          - 11: delay(5)
+2025-12-05 22:51:17.507 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store
+2025-12-05 22:51:17.522 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-05 22:51:17.522 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store
+2025-12-05 22:51:17.563 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = usagiclimber
+2025-12-05 22:51:17.564 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 123$abcD
+2025-12-05 22:51:17.784 DEBUG testcase.login book store                - 1: openBrowser("")
+2025-12-05 22:51:17.801 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-12-05 22:51:18.179 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-05 22:51:18.181 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 05, 2025 10:51:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-05 22:51:21.046 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a0d5e15e91f251175677faae104b635e
+2025-12-05 22:51:21.046 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.177
+2025-12-05 22:51:21.046 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-05 22:51:21.046 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-05 22:51:21.046 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-05 22:51:21.087 DEBUG testcase.login book store                - 2: navigateToUrl("https://demoqa.com/login")
+2025-12-05 22:51:31.787 DEBUG testcase.login book store                - 3: setText(findTestObject("Page_DEMOQA/register bookstore/input_UserName"), username)
+2025-12-05 22:51:34.303 DEBUG testcase.login book store                - 4: setText(findTestObject("Page_DEMOQA/register bookstore/input_Password"), password)
+2025-12-05 22:51:35.265 DEBUG testcase.login book store                - 5: click(findTestObject("Page_DEMOQA/register bookstore/button_Password_login"))
+2025-12-05 22:51:35.732 DEBUG testcase.login book store                - 6: delay(5)
+2025-12-05 22:51:40.763 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store
+2025-12-05 22:51:40.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-05 22:51:40.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store
+2025-12-05 22:51:40.806 INFO  c.k.katalon.core.main.TestCaseExecutor   - username = arisugamersboy
+2025-12-05 22:51:40.807 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = 1234354abcd
+2025-12-05 22:51:40.812 DEBUG testcase.login book store                - 1: openBrowser("")
+2025-12-05 22:51:40.820 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-12-05 22:51:41.192 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-05 22:51:41.195 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 05, 2025 10:51:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-05 22:51:43.762 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ab17e7a2a751671a81f0dcf10f1b675d
+2025-12-05 22:51:43.764 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.177
+2025-12-05 22:51:43.765 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-05 22:51:43.766 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-05 22:51:43.768 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-05 22:51:43.829 DEBUG testcase.login book store                - 2: navigateToUrl("https://demoqa.com/login")
+2025-12-05 22:52:00.971 DEBUG testcase.login book store                - 3: setText(findTestObject("Page_DEMOQA/register bookstore/input_UserName"), username)
+2025-12-05 22:52:03.127 DEBUG testcase.login book store                - 4: setText(findTestObject("Page_DEMOQA/register bookstore/input_Password"), password)
+2025-12-05 22:52:04.034 DEBUG testcase.login book store                - 5: click(findTestObject("Page_DEMOQA/register bookstore/button_Password_login"))
+2025-12-05 22:52:04.536 DEBUG testcase.login book store                - 6: delay(5)
+2025-12-05 22:52:09.563 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store
+2025-12-05 22:52:10.007 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-05 22:52:10.007 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/register and login
+2025-12-05 22:52:10.007 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

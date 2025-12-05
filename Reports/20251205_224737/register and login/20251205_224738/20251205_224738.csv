@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+register and login,Chrome 142.0.7444.177,,,05-12-2025 22:47:43,05-12-2025 22:49:13,1m - 29.580s,PASSED
+,,,,,,,
+"Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store",Chrome 142.0.7444.177,,,05-12-2025 22:47:44,05-12-2025 22:48:11,26.762s,PASSED
+"DATA BINDING - {""firstname"":""Yuzuha"",""password"":""123$abcD"",""lastname"":""Usagi"",""username"":""usagiclimber""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.177,,,05-12-2025 22:47:45,05-12-2025 22:47:51,6.146s,PASSED
+"navigateToUrl(""https://demoqa.com/login"")",Chrome 142.0.7444.177,,,05-12-2025 22:47:51,05-12-2025 22:48:04,13.080s,PASSED
+"click(findTestObject(""Page_DEMOQA/register bookstore/button_newUser""))",Chrome 142.0.7444.177,,,05-12-2025 22:48:04,05-12-2025 22:48:05,1.301s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_First Name""), firstname)",Chrome 142.0.7444.177,,,05-12-2025 22:48:05,05-12-2025 22:48:07,1.270s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_Last Name""), lastname)",Chrome 142.0.7444.177,,,05-12-2025 22:48:07,05-12-2025 22:48:08,1.029s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_UserName""), username)",Chrome 142.0.7444.177,,,05-12-2025 22:48:08,05-12-2025 22:48:09,0.991s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_Password""), password)",Chrome 142.0.7444.177,,,05-12-2025 22:48:09,05-12-2025 22:48:10,0.946s,PASSED
+"click(findTestObject(""Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv""))",Chrome 142.0.7444.177,,,05-12-2025 22:48:10,05-12-2025 22:48:10,0.683s,PASSED
+switchToDefaultContent(),Chrome 142.0.7444.177,,,05-12-2025 22:48:10,05-12-2025 22:48:10,0.120s,PASSED
+"click(findTestObject(""Page_DEMOQA/register bookstore/button_register""))",Chrome 142.0.7444.177,,,05-12-2025 22:48:10,05-12-2025 22:48:11,0.584s,PASSED
+,,,,,,,
+"Test Cases/web testing/Bookstore (register, login, profile and bookstore)/Register In Book Store",Chrome 142.0.7444.177,,,05-12-2025 22:48:11,05-12-2025 22:48:37,25.674s,PASSED
+"DATA BINDING - {""firstname"":""Ryohei"",""password"":""1234354abcd"",""lastname"":""Arisu"",""username"":""arisugamersboy""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.177,,,05-12-2025 22:48:11,05-12-2025 22:48:15,3.552s,PASSED
+"navigateToUrl(""https://demoqa.com/login"")",Chrome 142.0.7444.177,,,05-12-2025 22:48:15,05-12-2025 22:48:29,14.317s,PASSED
+"click(findTestObject(""Page_DEMOQA/register bookstore/button_newUser""))",Chrome 142.0.7444.177,,,05-12-2025 22:48:29,05-12-2025 22:48:31,1.751s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_First Name""), firstname)",Chrome 142.0.7444.177,,,05-12-2025 22:48:31,05-12-2025 22:48:33,1.914s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_Last Name""), lastname)",Chrome 142.0.7444.177,,,05-12-2025 22:48:33,05-12-2025 22:48:34,0.918s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_UserName""), username)",Chrome 142.0.7444.177,,,05-12-2025 22:48:34,05-12-2025 22:48:35,0.949s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_Password""), password)",Chrome 142.0.7444.177,,,05-12-2025 22:48:35,05-12-2025 22:48:36,1.010s,PASSED
+"click(findTestObject(""Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv""))",Chrome 142.0.7444.177,,,05-12-2025 22:48:36,05-12-2025 22:48:36,0.604s,PASSED
+switchToDefaultContent(),Chrome 142.0.7444.177,,,05-12-2025 22:48:36,05-12-2025 22:48:36,0.058s,PASSED
+"click(findTestObject(""Page_DEMOQA/register bookstore/button_register""))",Chrome 142.0.7444.177,,,05-12-2025 22:48:36,05-12-2025 22:48:37,0.530s,PASSED
+,,,,,,,
+"Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store",Chrome 142.0.7444.177,,,05-12-2025 22:48:37,05-12-2025 22:48:56,19.061s,PASSED
+"DATA BINDING - {""password"":""123$abcD"",""username"":""usagiclimber""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.177,,,05-12-2025 22:48:37,05-12-2025 22:48:40,2.991s,PASSED
+"navigateToUrl(""https://demoqa.com/login"")",Chrome 142.0.7444.177,,,05-12-2025 22:48:40,05-12-2025 22:48:53,12.355s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_UserName""), username)",Chrome 142.0.7444.177,,,05-12-2025 22:48:53,05-12-2025 22:48:54,1.959s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_Password""), password)",Chrome 142.0.7444.177,,,05-12-2025 22:48:54,05-12-2025 22:48:55,0.953s,PASSED
+"click(findTestObject(""Page_DEMOQA/register bookstore/button_Password_login""))",Chrome 142.0.7444.177,,,05-12-2025 22:48:55,05-12-2025 22:48:56,0.528s,PASSED
+,,,,,,,
+"Test Cases/web testing/Bookstore (register, login, profile and bookstore)/login book store",Chrome 142.0.7444.177,,,05-12-2025 22:48:56,05-12-2025 22:49:13,16.631s,PASSED
+"DATA BINDING - {""password"":""1234354abcd"",""username"":""arisugamersboy""}",,,,,,,
+"openBrowser("""")",Chrome 142.0.7444.177,,,05-12-2025 22:48:56,05-12-2025 22:48:59,2.881s,PASSED
+"navigateToUrl(""https://demoqa.com/login"")",Chrome 142.0.7444.177,,,05-12-2025 22:48:59,05-12-2025 22:49:09,10.000s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_UserName""), username)",Chrome 142.0.7444.177,,,05-12-2025 22:49:09,05-12-2025 22:49:11,2.367s,PASSED
+"setText(findTestObject(""Page_DEMOQA/register bookstore/input_Password""), password)",Chrome 142.0.7444.177,,,05-12-2025 22:49:11,05-12-2025 22:49:12,0.897s,PASSED
+"click(findTestObject(""Page_DEMOQA/register bookstore/button_Password_login""))",Chrome 142.0.7444.177,,,05-12-2025 22:49:12,05-12-2025 22:49:13,0.445s,PASSED

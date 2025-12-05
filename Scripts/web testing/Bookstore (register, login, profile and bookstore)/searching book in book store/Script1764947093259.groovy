@@ -21,21 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/login')
 
-WebUI.click(findTestObject('Page_DEMOQA/register bookstore/button_newUser'))
+WebUI.setText(findTestObject('Page_DEMOQA/register bookstore/input_UserName'), 'joliefeliciaa')
 
-WebUI.setText(findTestObject('Page_DEMOQA/register bookstore/input_First Name'), firstname)
+WebUI.setText(findTestObject('Page_DEMOQA/register bookstore/input_Password'), '123456789$abcD')
 
-WebUI.setText(findTestObject('Page_DEMOQA/register bookstore/input_Last Name'), lastname)
+WebUI.click(findTestObject('Page_DEMOQA/register bookstore/button_Password_login'))
 
-WebUI.setText(findTestObject('Page_DEMOQA/register bookstore/input_UserName'), username)
+WebUI.click(findTestObject('Page_DEMOQA/register bookstore/li_Login_item-2'))
 
-WebUI.setText(findTestObject('Page_DEMOQA/register bookstore/input_Password'), password)
+WebUI.setText(findTestObject('Page_DEMOQA/register bookstore/input_Book Store API_searchBox'), 'Richard')
 
-WebUI.click(findTestObject('Page_DEMOQA/register bookstore/iframe_a-w217fwb3njxv'))
-
-WebUI.switchToDefaultContent()
-
-WebUI.click(findTestObject('Page_DEMOQA/register bookstore/button_register'))
-
-WebUI.delay(5)
+WebUI.selectOptionByIndex(findTestObject('Page_DEMOQA/register bookstore/select'), 0)
 
